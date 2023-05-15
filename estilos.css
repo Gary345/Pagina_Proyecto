@@ -1,0 +1,200 @@
+.agendar-cita {
+    background-image: url('https://example.com/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .agendar-cita button {
+    background-color: #ff4081;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .agendar-cita button:hover {
+    background-color: #e6005c;
+  }
+  
+  .col-lg-6 {
+    position: relative;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  iframe {
+    width: 100%;
+    border: 0;
+  }
+  
+  #direccion {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 62px;
+  }
+  
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .email {
+    margin-top: 10px;
+  }
+  
+  .contact-info {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0;
+  }
+  
+  .contact-info .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info .section-content {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info .section-content a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info .section-content a:hover {
+    color: #ff4081;
+  }
+  
+  .contact-info .section-content .highlight {
+    color: #ff4081;
+    font-weight: bold;
+  }
+  
+  .selected {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Estilos personalizados */
+  #horarios {
+    text-align: center;
+  }
+  
+  .horarios-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .horarios-select {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    max-width: 100%;
+    width: 300px;
+  }
+  
+  .horarios-select:hover,
+  .horarios-select:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .horarios-select option {
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .agendar-cita {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .agendar-cita button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .col-lg-6 {
+      margin-bottom: 20px;
+    }
+  
+    #direccion {
+      top: 5px;
+      left: 5px;
+      font-size: 14px;
+      padding: 3px 6px;
+    }
+  
+    .social-icons a {
+      font-size: 24px;
+    }
+  
+    .contact-info p {
+      font-size: 14px;
+    }
+  
+    .contact-info .section-title {
+      font-size: 20px;
+    }
+  
+    .contact-info .section-content {
+      font-size: 16px;
+    }
+  
+    .horarios-select {
+      font-size: 14px;
+      width: 200px;
+    }
+  }
+  
+  

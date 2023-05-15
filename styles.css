@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  #service-selection,
+  #schedule-selection,
+  #calendar {
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #calendar {
+    text-align: center;
+  }
+  
+  /* Estilos adicionales para resaltar la selección */
+  select:focus {
+    border-color: #555;
+  }
+  
+  select option:checked {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #service-selection,
+    #schedule-selection,
+    #calendar {
+      max-width: 100%;
+    }
+  }
